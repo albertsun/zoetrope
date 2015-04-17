@@ -11,5 +11,7 @@ var z = new Zoetrope("#container", {
   frame_count: 114,
   loop: false
 });
-z.gotoFrame(z.opts.frame_count-1,30);
+$(document).ready(function() {
+  z.gotoFrame(z.opts.frame_count-1,30);
+});
 </script>
