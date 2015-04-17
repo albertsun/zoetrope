@@ -1,0 +1,15 @@
+<div id="container">
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="zoetrope.js"></script>
+<script>
+var z = new Zoetrope("#container", {
+  path: "reel.png",
+  frame_width: 300,
+  frame_height: 225,
+  frame_count: 114,
+  loop: false
+});
+z.gotoFrame(z.opts.frame_count-1,30);
+</script>
