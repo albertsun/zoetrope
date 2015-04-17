@@ -16,6 +16,8 @@ var z = new Zoetrope("#container", {
 });
 ```
 
+Example: http://albertsun.github.io/zoetrope/example.html
+
 Once you've created one, there are a few methods and properties you can access.
 
 ```
